@@ -17,8 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let timeLeft = 90; // Initial time limit in seconds
 
     // Audio elements for correct and incorrect answers
-    const correctSound = new Audio(`${window.location.href}assets/sfx/correct.wav`);
-    const incorrectSound = new Audio(`${window.location.href}assets/sfx/incorrect.wav`);
+ // Correct the paths for the audio files
+const correctSound = new Audio('./assets/sfx/correct.wav');
+const incorrectSound = new Audio('./assets/sfx/incorrect.wav');
+
 
 
     // Function to start the quiz
