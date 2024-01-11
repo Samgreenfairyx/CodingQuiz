@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Audio elements for correct and incorrect answers
  // Correct the paths for the audio files
-const correctSound = new Audio('./assets/sfx/correct.wav');
-const incorrectSound = new Audio('./assets/sfx/incorrect.wav');
+const correctSound = new Audio('./main/assets/sfx/correct.wav');
+const incorrectSound = new Audio('./main/assets/sfx/incorrect.wav');
 
 
 
